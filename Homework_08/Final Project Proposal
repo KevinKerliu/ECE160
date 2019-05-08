@@ -1,0 +1,19 @@
+Final Project Proposal
+Group Members: Rebecca Gartenberg, Richard Lee, Kevin Kerliu
+
+Project: Alarm Clock & Calendar
+
+Description: 
+This project entails two main functionalities:
+    1. A Digital Planner/Reminder System. All too often we need multiple apps just to set reminders and alarms; why not integrate them together? We propose to create a calendar system to remind the user of upcoming events and relevant notes pertinent to each event. The events can be inputted into the calendar using the default system, or with a basic scripting language designed for our system.
+    2. A Customizable Alarm Clock/Stopwatch. Most alarm clocks are very basic and limited in terms of functionality. We seek to create an alarm system where the user can set specific characteristics of their alarm, such as a variable frequency of snooze time and volume.
+    In addition, most countdowns only allow the ability of setting a single countdown so we aim to allow for multiple countdowns to be set, almost like an alarm feature for events (consider the timer feature of your clock app for comparison). If one needs multiple short term alarms, it is more practical simply set in how long the alarm should sound rather than sit there and calculate the elapsed time.
+    
+How will your project will use C++?
+    While we can use C for similar functionality, C++ provides simpler management of strings and memory allocation, for example. More importantly, the distinction between structures and classes is especially important, as users should only interact with variable parts of the code.
+
+How will your project will use C++ classes along with its features?
+  Classes will be a core component of the project as much of the code for alarms need not be accessible to the user, but the user will have to interact with the code via public parts of the class, namely the user inputs.
+
+What other other technologies/languages, if any, are you using as part of the project?
+  The events, of course, will be inputted by the user in a user-friendly GUI. We are using Qt for this.
