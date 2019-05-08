@@ -1,0 +1,23 @@
+## Question 1
+
+Write a funciton that determines the maximum and minimum values from a one-dimensional array. Assume that the corresponding function prototype statement is
+
+<code>void ranges(int x[], int npts, int *max_ptr, int *min_ptr)</code>
+
+where npts contain the number of values in array x, and max_ptr and min_ptr are pointers to the variables in which to store the maximum and minimum values in the array.
+
+Provide and print out 3 examples to show that your function is working as intended.
+
+Compile Steps: 
+
+	gcc q1.c
+
+Output:
+	
+	Max: 17
+	Min: 1
+	Max: 94
+	Min: 10
+	Max: 9
+	Min: 2
+
